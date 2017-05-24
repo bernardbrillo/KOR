@@ -30,7 +30,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-sm-2">
-              <div class="logo">
+              <div class="logo out-mobile">
                 <a href="<?php bloginfo('url')?>"><img alt="" src="<?php bloginfo('template_url');?>/images/kokuryu-logo.png"></a>
               </div><!--end LOGO -->
             </div>
@@ -38,7 +38,6 @@
                 <!--MENU-->
                 <nav id="main-navigation">
                     <div class="navbar navbar-default" role="navigation">
-                        <div class="col-md-12">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="sr-only">Toggle navigation</span>
@@ -46,6 +45,9 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
+                                <div class="in-mobile logo-mobile">
+                  									<a href="<?php bloginfo('url')?>"><img alt="" src="<?php bloginfo('template_url');?>/images/kokuryu-logo.png"></a>
+                  							</div>
                             </div>
                             <div class="collapse navbar-collapse">
                                 <?php /* Primary navigation */
@@ -59,7 +61,6 @@
                                 );
                                 ?>
                             </div><!--/.nav-collapse -->
-                        </div>
                     </div>
                 </nav><!--end MENU-->
             </div>
