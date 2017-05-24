@@ -4,10 +4,10 @@ Template Name: Contact Us
 */
 get_header();?>
 
-<div class="main-wrapper page-wrap">
+<div class="main-wrapper page-wrap contact-wrap">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <?php while ( have_posts() ) : the_post(); ?>
                   <div class="post-content">
                     <?php
@@ -15,7 +15,42 @@ get_header();?>
                     the_content();?>
                   </div>
                 <?php endwhile;?>
+
+                <h1 class="get-in-touch">GET IN
+                    <br>
+                    TOUCH <br>
+                    WITH US
+                </h1>
             </div>
+            <div class="col-md-6">
+            </div>
+        </div><!--end ROW-->
+        <div class="row">
+              <div class="col-md-10"></div>
+              <div class="col-md-2">
+                <div class="envelope"><a href="#"  data-toggle="modal" data-target="#myModal"><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
+                <!-- modal for contact form starts here -->
+                        <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                  </div>
+                  <div class="modal-body">
+                    <script type="text/javascript" src="https://form.jotform.me/jsform/71371431424448"></script>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+                <!-- modal for contact form ends here -->
+              </div>
         </div><!--end ROW-->
     </div><!-- end CONTAINER-->
 </div>

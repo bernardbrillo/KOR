@@ -446,12 +446,37 @@ ul.tabs li.current{
 .article-info a{
 	color:#252525;
 }
-<<<<<<< HEAD
 .article-info p{
 	color:#c6c4c4;
 	font-size:13px;
 }
+/** CONTACT US STARTS HERE**/
+.contact-wrap{
+	background-image:URL('images/contactus-bg.jpg') !important;
+	background-size:cover !important;
+	padding:80px !important;
+}
 
+.get-in-touch {
+	font-family: 'ProximaNova-Bold' !important;
+	font-size: 5em !important;
+	margin:0 0 40px 0 !important;
+	padding:65px 0 0 0 !important;
+	line-height: 1 !important;
+}
+
+.envelope {
+	border-radius: 30px;
+	background-color: #ff4a24;
+	width: 60px;
+	height: 60px;
+	padding: 16px;
+}
+
+.envelope i {
+	color: #fff;
+	font-size: 2em;
+}
 @media only screen and (max-device-width: 736px)  {
 	/* MOBILE VIEW */
 	.container {
@@ -603,7 +628,37 @@ ul.tabs li.current{
     padding-left: 0;
     padding-right: 0;
 	}
-}
-/** CONTACT US STARTS HERE**/
 
-/*CONTACT US ENDS HERE*/
+	.contact-wrap {
+	    background-image: URL('images/mobile-contactus-bg.jpg') !important;
+	    background-size: cover !important;
+	    padding: 59px !important;
+	}
+	.get-in-touch {
+	    font-family: 'ProximaNova-Bold' !important;
+	    font-size: 4em !important;
+	    margin: 0 0 40px 0 !important;
+	    padding: 177px 0 0 0 !important;
+	    line-height: 1 !important;
+	}
+
+}
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
