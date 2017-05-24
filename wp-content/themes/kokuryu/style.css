@@ -423,3 +423,10 @@ ul.tabs li.current{
 .article-info a{
 	color:#252525;
 }
+
+/** CONTACT US**/
+.contact-wrap{
+	background-image:URL('images/contactus-bg.jpg');
+	background-size:cover;
+	padding:80px;
+}
