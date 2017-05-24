@@ -15,7 +15,6 @@ get_header();?>
                     the_content();?>
                   </div>
                 <?php endwhile;?>
-
             </div>
         </div><!--end ROW-->
     </div><!-- end CONTAINER-->

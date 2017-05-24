@@ -43,7 +43,7 @@
       </div>
       <div class="main-wrapper">
       <?php $recent = new WP_Query("cat=3&showposts=6&order=DESC" . $paged); while($recent->have_posts()) : $recent->the_post();?>
-        <div class="col-md-4 product-content">
+        <div class="col-md-4 col-sm-4 product-content">
           <div class="product-box-page">
             <div class="product-thumb">
               <?php the_post_thumbnail('large');?>

@@ -2,11 +2,19 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
+<<<<<<< HEAD
 RewriteBase /projects/kokuryu/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /projects/kokuryu/index.php [L]
+=======
+RewriteBase /projects-wamp/kokuryu/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /projects-wamp/kokuryu/index.php [L]
+>>>>>>> 205808aff13a73977651441dd9f10584793ae633
 </IfModule>
 
 # END WordPress

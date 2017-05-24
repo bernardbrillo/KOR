@@ -10,6 +10,7 @@
 <!-- SCRIPTS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
+
 <script>
 /* Load the Product category tabs*/
 var $tabit = jQuery.noConflict();
@@ -26,14 +27,104 @@ $tabit(function(){
 })
 </script>
 <script>
-  /* Load more content with jQuery */
+  /* LOAD MORE - PRODUCT FACE */
     var $loadmore = jQuery.noConflict();
     $loadmore(function () {
-        $loadmore(".product-content").slice(0, 6).show();
+        $loadmore(".product-content-FACE").slice(0, 3).show();
         $loadmore("#loadMore").on('click', function (e) {
             e.preventDefault();
-            $loadmore(".product-content:hidden").slice(0, 4).slideDown();
-            if ($loadmore(".product-content:hidden").length == 0) {
+            $loadmore(".product-content-FACE:hidden").slice(0, 3).slideDown();
+            if ($loadmore(".product-content-FACE:hidden").length == 0) {
+                $loadmore("#load").fadeOut('slow');
+                $loadmore(".nomore").hide();
+            }
+            $loadmore('html,body').animate({
+                scrollTop: $(this).offset().top
+            }, 1500);
+        });
+    });
+</script>
+<script>
+  /* LOAD MORE -PRODUCT LIPS */
+    var $loadmore = jQuery.noConflict();
+    $loadmore(function () {
+        $loadmore(".product-content-LIPS").slice(0, 3).show();
+        $loadmore("#loadMore").on('click', function (e) {
+            e.preventDefault();
+            $loadmore(".product-content-LIPS:hidden").slice(0, 3).slideDown();
+            if ($loadmore(".product-content-LIPS:hidden").length == 0) {
+                $loadmore("#load").fadeOut('slow');
+                $loadmore(".nomore").hide();
+            }
+            $loadmore('html,body').animate({
+                scrollTop: $(this).offset().top
+            }, 1500);
+        });
+    });
+</script>
+<script>
+  /* LOAD MORE -PRODUCT EYES */
+    var $loadmore = jQuery.noConflict();
+    $loadmore(function () {
+        $loadmore(".product-content-EYES").slice(0, 3).show();
+        $loadmore("#loadMore").on('click', function (e) {
+            e.preventDefault();
+            $loadmore(".product-content-EYES:hidden").slice(0, 3).slideDown();
+            if ($loadmore(".product-content-EYES:hidden").length == 0) {
+                $loadmore("#load").fadeOut('slow');
+                $loadmore(".nomore").hide();
+            }
+            $loadmore('html,body').animate({
+                scrollTop: $(this).offset().top
+            }, 1500);
+        });
+    });
+</script>
+<script>
+  /* LOAD MORE -PRODUCT CHEEKS */
+    var $loadmore = jQuery.noConflict();
+    $loadmore(function () {
+        $loadmore(".product-content-CHEEKS").slice(0, 3).show();
+        $loadmore("#loadMore").on('click', function (e) {
+            e.preventDefault();
+            $loadmore(".product-content-CHEEKS:hidden").slice(0, 3).slideDown();
+            if ($loadmore(".product-content-CHEEKS:hidden").length == 0) {
+                $loadmore("#load").fadeOut('slow');
+                $loadmore(".nomore").hide();
+            }
+            $loadmore('html,body').animate({
+                scrollTop: $(this).offset().top
+            }, 1500);
+        });
+    });
+</script>
+<script>
+  /* LOAD MORE -PRODUCT SET */
+    var $loadmore = jQuery.noConflict();
+    $loadmore(function () {
+        $loadmore(".product-content-SET").slice(0, 3).show();
+        $loadmore("#loadMore").on('click', function (e) {
+            e.preventDefault();
+            $loadmore(".product-content-SET:hidden").slice(0, 3).slideDown();
+            if ($loadmore(".product-content-SET:hidden").length == 0) {
+                $loadmore("#load").fadeOut('slow');
+                $loadmore(".nomore").hide();
+            }
+            $loadmore('html,body').animate({
+                scrollTop: $(this).offset().top
+            }, 1500);
+        });
+    });
+</script>
+<script>
+  /* LOAD MORE -PRODUCT LIPS */
+    var $loadmore = jQuery.noConflict();
+    $loadmore(function () {
+        $loadmore(".product-content-SKIN").slice(0, 3).show();
+        $loadmore("#loadMore").on('click', function (e) {
+            e.preventDefault();
+            $loadmore(".product-content-SKIN:hidden").slice(0, 3).slideDown();
+            if ($loadmore(".product-content-SKIN:hidden").length == 0) {
                 $loadmore("#load").fadeOut('slow');
                 $loadmore(".nomore").hide();
             }
