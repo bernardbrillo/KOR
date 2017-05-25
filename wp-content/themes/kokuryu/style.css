@@ -477,6 +477,29 @@ ul.tabs li.current{
 	color: #fff;
 	font-size: 2em;
 }
+
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer {
+	border-top: none;
+}
+.close {
+	opacity: 1;
+}
+.fa-times {
+	border: 2px #000 solid;
+  border-radius: 25px;
+  padding: 3px;
+  width: 30px;
+  height: 31px;
+	}
+.fa-times i {
+	font-size: 10px;
+}
+.modal-lg {
+    width: 813px;
+}
 @media only screen and (max-device-width: 736px)  {
 	/* MOBILE VIEW */
 	.container {
