@@ -656,7 +656,7 @@ ul.tabs li.current{
 	    background-image: URL('images/mobile-contactus-bg.jpg') !important;
 	    background-size: cover !important;
 	    padding: 59px !important;
-		   background-position: 50% 58%;
+	   background-position: 50% 101%, center;
 	}
 	.get-in-touch {
 	    font-family: 'ProximaNova-Bold' !important;
