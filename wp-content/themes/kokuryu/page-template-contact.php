@@ -31,7 +31,7 @@ get_header();?>
                 <div class="envelope"><a href="#"  data-toggle="modal" data-target="#myModal"><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
                 <!-- modal for contact form starts here -->
                         <div id="myModal" class="modal fade " role="dialog">
-              <div class="modal-dialog modal-lg">
+              <div class="modal-dialog modal-lg modal-md modal-xs modal-sm">
                 <!-- Modal content-->
                 <div class="modal-content">
                   <div class="modal-header">
